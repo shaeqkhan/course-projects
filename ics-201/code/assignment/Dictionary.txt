@@ -1,0 +1,41 @@
+AA -- Anti-Aliasing
+AAA -- Authentication Authorization, Accounting
+AABB -- Axis Aligned Bounding Box
+AAC -- Advanced Audio Coding
+AAL -- ATM Adaptation Layer
+AALC -- ATM Adaptation Layer Connection
+AARP -- AppleTalk Address Resolution Protocol
+ABI -- Application Binary Interface
+ABM -- Asynchronous Balanced Mode
+ABR -- Area Border Router
+AC -- Alternating Current
+ACD -- Automatic Call Distributor
+ACF -- Advanced Communications Function
+ACID -- Atomicity Consistency Isolation Durability
+ACK -- ACKnowledgement
+ACL -- Access Control List
+ACM -- Association for Computing Machinery
+ACME -- Automated Classification of Medical Entities
+ACPI -- Advanced Configuration and Power Interface
+ACR -- Allowed Cell Rate
+BASIC -- Beginner's All-Purpose Symbolic Instruction Code
+BTAM -- Basic Telecommunications Access Method (an IBM OS/360 API)
+CD -- Compact Disc
+CD-R -- CD-Recordable
+CD-ROM -- CD Read-Only Memory 
+CD-RW -- CD-Rewritable
+DVD-R -- DVD-Recordable
+DVD-ROM -- DVD-Read Only Memory
+DVD-RW -- DVD-Rewritable
+DVR -- Digital Video Recorder (see also PVR)
+eID -- electronic ID card
+EIDE -- Enhanced IDE
+ETL -- Extract, Transform, Load
+FC-AL -- Fiber Channel Arbitrated Loop
+GOMS -- Goals, Operators, Methods, and Selection rules
+GTK+ -- GIMP Toolkit
+I/O -- Input/Output
+LAMP -- Linux Apache MySQL (Perl, PHP, or Python)
+MMIO -- Memory-Mapped I/O
+MS-DOS -- Microsoft DOS
+SBP-2 -- Serial Bus Protocol 2
