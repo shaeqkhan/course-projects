@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_incrementalGoals" value="name:goal_id;datatype:int,name:goal_creator;datatype:string,name:goal_name;datatype:string,name:description;datatype:blob,name:doc;datatype:date,name:daily_max;datatype:int,name:frequency;datatype:int,name:type;datatype:int,name:deleted_flag;datatype:int" />
+	<infoitem key="UD_decrementalGoals" value="name:goal_id;datatype:int,name:goal_creator;datatype:string,name:goal_name;datatype:string,name:description;datatype:blob,name:doc;datatype:date,name:daily_max;datatype:int,name:frequency;datatype:int,name:type;datatype:int,name:deleted_flag;datatype:int" />
+</info>
