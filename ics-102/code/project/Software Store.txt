@@ -1,0 +1,8 @@
+Company Name	Product Name	Price	Quantity
+Microsoft	Windows_98	150	3
+Microsoft	Windows_XP	210	5
+Microsoft	Windows_Vista	290	9
+Microsoft	Word		60	3
+Microsoft	Excel		45	2
+Adobe		Photoshop	220	4
+Adobe		Acrobat		85	7
