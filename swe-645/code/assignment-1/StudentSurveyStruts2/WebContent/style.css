@@ -1,0 +1,26 @@
+<!--Shaeq Khan [skhan27]-->
+
+@CHARSET "ISO-8859-1";
+
+#wrapper {
+	margin:auto;
+	width:800px;
+}
+
+#header {
+	width:800px;	
+}
+
+.errorMessage {  
+	color: red;  
+	font-size: 0.8em;
+	float:right;  
+} 
+
+#surveys td {
+	text-align:center;
+}
+
+#surveyTable td{
+	margin: 20px 20px 20px 20px;
+}
