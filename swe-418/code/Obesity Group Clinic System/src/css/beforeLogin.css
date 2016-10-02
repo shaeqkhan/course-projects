@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.container {
+	width: 1000px;
+	margin-right:auto;
+	margin-left:auto;
+	
+}
+.container .header {
+	margin-top:30px;
+	width: 1000px;
+	background-image: url(../images/header-bg.jpg);
+	background-repeat: repeat-x;
+	height: 140px;
+	-webkit-border-radius:7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	
+}
+
+
+.container .content {
+	float: left;
+	width: 640px;
+	font-family:Arial, Helvetica, sans-serif;
+	
+}
+.container .header .welcomeMessage {
+	padding-top:80px;
+	padding-left: 200px;
+	padding-right:5px;
+	width:400px;
+	float: right;
+	text-align:right;
+	color:#FFF;
+}
+.container .content .contentBody {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin-top: 10px;
+}
+.container .footer {
+	width: 1000px;
+	color:#fff;
+	float:left;
+	background-image:url(../images/header-bg.jpg);
+	background-repeat:repeat-x;
+	height:90px;
+	margin-top:20px;
+	margin-bottom:20px;
+	-webkit-border-radius:10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	
+
+}
+
+.footer-logo{
+	float:right; 
+	margin-top:-10px; 
+	margin-right:20px;
+}
+
+
+.container .header .logo {
+	float: left;
+	width: 250px;
+	margin-top:-23px;
+	margin-left:10px;
+}
+.container .menu {
+	float: right;
+	width:1000;
+	
+}
+
+.container .accordionBar {
+	float: left;
+	width: 340px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.container #loginArea {
+	float: left;
+	width: 350px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#fff;
+	padding-top:30px;
+	padding-left:350px;
+}
+.container .header #loginArea #loginForm table tr td #login {
+	background-color:#F39000;
+	color:#fff;
+}
+.container .header #loginArea #loginForm table tr td #login:hover{
+	background-color:#FF7800;
+
+}
+.loginError{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#CC0000;
+	text-align:left;
+}
+a:link{
+	text-decoration:none;
+	color:#FF9300;
+	border:none;
+	
+}
+a:hover{
+	text-decoration:underline;
+}
+a:visited{
+	color:#FF9300;
+}
+a:active{
+	color:#FF9300;
+}
+.heading {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 26px;
+	font-weight:bold;
+	font-variant: small-caps;
+	color:#999;
+	margin-bottom:10px;
+}

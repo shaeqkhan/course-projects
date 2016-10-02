@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script type="text/javascript" src="../js/jquery-1.6.2.min.js"></script>
+<script type="text/javascript" src="../js/jquery-ui-1.8.16.custom.min.js"></script>
+<link href="../css/patientMenuStyle.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+			$(function(){
+
+				// Accordion
+				$("#accordion").accordion({ 
+				header: "h3",
+				autoHeight: false,
+				navigation: true,
+				});
+	
+			});
+		</script>
+</head>
+
+<body>
+
+
+<div class="accordionBar">
+  <!-- Accordion -->
+		<div id="accordion">
+        
+			<div class="menuBarItem">
+				<a href="../index.php" style="text-decoration: none;">Home</a>
+			</div>
+            
+            
+			<div>
+				<h3><a href="#" style="text-decoration: none;">Account</a></h3>
+                    <div class="menuBarItem-content">
+                         <ul id="MenuBar1" class="MenuBarVertical" style="list-style-type: none;" >
+                         <li><a href=".php">Create Patient</a></li>
+                         <li><a href=".php">Create Health Team</a></li>
+                         <li><a href=".php">Modify</a></li>
+                         </ul>
+                    </div>
+			</div>
+            
+            
+			<div>
+				<h3><a href="#" style="text-decoration: none;">Patients</a></h3>
+                	<div class="menuBarItem-content">
+                         <ul id="MenuBar1" class="MenuBarVertical" style="list-style-type: none;">
+                         <li><a href=".php">Manage Goals</a></li>
+                         <li><a href=".php">View Profile</a></li>
+                         </ul>
+                    </div>
+			</div>
+            
+            
+            <div>
+				<h3><a href="" style="text-decoration: none;">Goals</a></h3>
+                    <div class="menuBarItem-content">
+                         <ul id="MenuBar1" class="MenuBarVertical" style="list-style-type: none;">
+                         <li><a href=".php">Create Goal</a>  </li>
+                         <li><a href=".php">View Goals</a> </li>
+                         <li><a href=".php">Create Goal Category</a></li>
+                         <li><a href=".php">View Goal Categories</a></li>
+                        </ul>
+                    </div>
+			</div>
+            
+            
+            <div>
+				<div class="menuBarItem"><a href="../index.php" style="text-decoration: none;">Reports</a></div>
+			</div>
+            
+            
+            <div>
+				<div class="menuBarItem"><a href="../index.php" style="text-decoration: none;">Logout</a></div>
+			</div>
+            
+            
+		</div>
+  </div>
+
+
+</body>
+</html>

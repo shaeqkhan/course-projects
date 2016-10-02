@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+
+.content .formWrap {
+	width:690px;
+	margin-top:30px;
+	margin-left:10px;
+	background-color:#FFF;
+}
+#formWrap #form {
+	color:#000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	
+}
+#form .row {
+	display:block;
+	overflow:auto;
+	padding-bottom:10px;
+	
+}
+#form .row .label {
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:right;
+	float:left;
+	width:150px;
+	padding-right:10px;
+	line-height:1.7em;
+}
+
+#form .row .input {
+	float:left;
+	margin-right:10px;
+    width:200px;
+}
+#form #rememberMe {
+	float:left;
+	margin-top:17px;
+	margin-left:10px;
+	
+}
+#form #login {
+	font-family:Arial, Helvetica, sans-serif;
+	margin-top:10px;
+	margin-left:160px;
+	font-size:14px;
+	color:#000;
+	text-shadow:1px 1px 1px #999;
+	padding:7px;
+	float:left;
+	
+}
+form .error{
+		color: #c00;
+}
+		
+form label.error
+{
+		color: #c00;
+		font-size: 12px;
+		width:200px;
+		display: none;		
+		clear:both;
+}
+
+fieldset {
+	width:750px;	/////////////////////////////////////////////////////
+	margin-top: 15px;
+	padding:5px;	/////////////////////////////////////////////////////
+}
+
+legend{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: italic;
+	color: #FF9300;
+}
+.button {
+	font-family:Arial, Helvetica, sans-serif;
+	margin-top:10px;
+	margin-left:175px;
+	font-size:14px;
+	color:#000;
+	text-shadow:1px 1px 1px #999;
+	padding:7px;
+	float:left;
+	width: 120px;
+}
+.reset {
+	font-family:Arial, Helvetica, sans-serif;
+	margin-top:10px;
+	margin-left:85px;
+	font-size:14px;
+	color:#000;
+	text-shadow:1px 1px 1px #999;
+	padding:7px;
+	float:left;
+	width: 120px;
+}
+textarea{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	width: 400px;
+	height: 100px;
+	max-height:100px;
+	max-width:400px;	
+}
+option{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}

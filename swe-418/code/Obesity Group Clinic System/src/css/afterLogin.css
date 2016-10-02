@@ -1,0 +1,297 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.container {
+	width: 1000px;
+	margin-right:auto;
+	margin-left:auto;
+}
+.container .header {
+	margin-top:30px;
+	width: 1000px;
+	background-image: url(../images/header-bg.jpg);
+	background-repeat: repeat-x;
+	height: 140px;
+	-webkit-border-radius:7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;	
+	
+}
+.container .header .welcomeMessage {
+	padding-top:80px;
+	padding-left: 200px;
+	padding-right:5px;
+	width:400px;
+	float: right;
+	text-align:right;
+	color:#FFF;
+}
+.container .sidebar {
+	float: left;
+	width: 210px;
+
+	
+}
+.container .content {
+	float: left;
+	width: 740px;
+	margin-left: 10px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.container .content .errorMessages {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #C00;
+	width: 650px;
+	margin-bottom:10px;
+	background-color:#FFA791;
+	border: 1px solid;
+	margin: 10px 0px;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:55px;
+	margin-left:auto;
+	margin-right:auto;
+	background-repeat: no-repeat;
+	background-image:url(../images/sad.png);
+	left: 10px;
+	top: 10px;
+	-webkit-border-radius:7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;	
+
+}
+.container .content .successMessages {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #093;
+	width: 650px;
+	margin-bottom:10px;
+	background-color:#a1ca86;
+	border: 1px solid;
+	margin: 10px 0px;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:55px;
+	margin-left:auto;
+	margin-right:auto;
+	background-repeat: no-repeat;
+	background-image:url(../images/happy.gif);
+	left: 10px;
+	top: 10px;
+	-webkit-border-radius:7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;	
+
+}
+.container .content .heading {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 26px;
+	font-weight:bold;
+	font-variant: small-caps;
+	color:#999;
+	margin-bottom:10px;
+}
+.container .content .contentBody {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	width:
+	/*margin-top: 10px;*/
+}
+.container .footer {
+	width: 1000px;
+	color:#fff;
+	float:left;
+	background-image:url(../images/header-bg.jpg);
+	background-repeat:repeat-x;
+	height:90px;
+	margin-top:20px;
+	margin-bottom:20px;
+	-webkit-border-radius:10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	
+
+}
+
+.footer-logo{
+	float:right; 
+	margin-top:-10px; 
+	margin-right:20px;
+}
+
+
+.container .header .logo {
+	float: left;
+	width: 250px;
+	margin-top:-23px;
+	margin-left:10px;
+}
+.container .menu {
+	float: right;
+	width:1000;
+	
+}
+
+#patientGoals {
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+
+ul.MenuBarVertical
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 100%;
+	cursor: default;
+	width:inherit;
+}
+/* Set the active Menu Bar with this class, currently setting z-index to accomodate IE rendering bug: http://therealcrisp.xs4all.nl/meuk/IE-zindexbug.html */
+ul.MenuBarActive
+{
+	z-index: 1000;
+}
+/* Menu item containers, position children relative to this container and are same fixed width as parent */
+ul.MenuBarVertical li
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 100%;
+	position: relative;
+	text-align: left;
+	cursor: pointer;
+	width:inherit;
+}
+/* Submenus should appear slightly overlapping to the right (95%) and up (-5%) with a higher z-index, but they are initially off the left side of the screen (-1000em) */
+ul.MenuBarVertical ul
+{
+	margin: -5% 0 0 95%;
+	padding: 0;
+	list-style-type: none;
+	font-size: 100%;
+	position: absolute;
+	z-index: 1020;
+	cursor: default;
+	width: 8.2em;
+	left: -1000em;
+	top: 0;
+}
+/* Submenu that is showing with class designation MenuBarSubmenuVisible, we set left to 0 so it comes onto the screen */
+ul.MenuBarVertical ul.MenuBarSubmenuVisible
+{
+	left: 0;
+}
+/* Menu item containers are same fixed width as parent */
+ul.MenuBarVertical ul li
+{
+	width: 8.2em;
+}
+
+/*******************************************************************************
+
+ DESIGN INFORMATION: describes color scheme, borders, fonts
+
+ *******************************************************************************/
+
+/* Outermost menu container has borders on all sides */
+ul.MenuBarVertical
+{
+	border: 1px solid #fff;
+}
+/* Submenu containers have borders on all sides */
+ul.MenuBarVertical ul
+{
+	border: 1px solid #fff;
+}
+/* Menu items are a light gray block with padding and no text decoration */
+ul.MenuBarVertical a
+{
+	display: block;
+	cursor: pointer;
+	background-color: #E1E1E1;
+	padding: 0.5em 0.75em;
+	color: #000;
+	text-decoration: none;
+}
+/* Menu items that have mouse over or focus have a blue background and white text */
+ul.MenuBarVertical a:hover, ul.MenuBarVertical a:focus
+{
+	background-color: #fff;
+	color: #ff8c00;
+}
+/* Menu items that are open with submenus are set to MenuBarItemHover with a blue background and white text */
+ul.MenuBarVertical a.MenuBarItemHover, ul.MenuBarVertical a.MenuBarItemSubmenuHover, ul.MenuBarVertical a.MenuBarSubmenuVisible
+{
+	background-color: #fff;
+	color: #ff8c00;
+}
+
+/*******************************************************************************
+
+ SUBMENU INDICATION: styles if there is a submenu under a given menu item
+
+ *******************************************************************************/
+
+/* Menu items that have a submenu have the class designation MenuBarItemSubmenu and are set to use a background image positioned on the far left (95%) and centered vertically (50%) */
+ul.MenuBarVertical a.MenuBarItemSubmenu
+{
+	background-image: url(SpryMenuBarRight.gif);
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+}
+
+/* Menu items that are open with submenus have the class designation MenuBarItemSubmenuHover and are set to use a "hover" background image positioned on the far left (95%) and centered vertically (50%) */
+ul.MenuBarVertical a.MenuBarItemSubmenuHover
+{
+	background-image: url(SpryMenuBarRightHover.gif);
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+}
+
+/*******************************************************************************
+
+ BROWSER HACKS: the hacks below should not be changed unless you are an expert
+
+ *******************************************************************************/
+
+/* HACK FOR IE: to make sure the sub menus show above form controls, we underlay each submenu with an iframe */
+ul.MenuBarVertical iframe
+{
+	position: absolute;
+	z-index: 1010;
+	filter:alpha(opacity:0.1);
+}
+/* HACK FOR IE: to stabilize appearance of menu items; the slash in float is to keep IE 5.0 from parsing */
+@media screen, projection
+{
+	ul.MenuBarVertical li.MenuBarItemIE
+	{
+		display: inline;
+
+
+		f\loat: left;
+		background: #FFF;
+	}
+}
+
+
+a:link{
+	text-decoration:none;
+	color:#FF9300;
+	border:none;
+	
+}
+a:hover{
+	text-decoration:underline;
+}
+a:visited{
+	color:#FF9300;
+}
+a:active{
+	color:#FF9300;
+}

@@ -1,0 +1,47 @@
+<div class="sidebar">
+        <div id="healthSideBar">
+        
+        	<!--<div onclick="">
+				<h3 ><a href=".php">Home</a></h3>
+			</div>-->
+    
+			<div>
+				<h3 ><a href="#">Account</a></h3>
+				<div class="menuBarItem-content">
+                <ul class="MenuBarVertical">
+                        <li><a href="createPatient.php">Create Patient</a></li>
+                        <?php if($user->type_flag==0){ ?>
+                        <li><a href="createHealthteam.php">Create Health Team</a></li>
+                        <?php } ?><li><a href="searchAccounts.php">Search Account</a></li>
+                 </ul>
+                </div>
+			</div>
+            
+            <div>
+				<h3 ><a href="#">Patients</a></h3>
+				<div>
+                <ul class="MenuBarVertical">
+                        <li><a href="searchPatients.php">Search Patients</a></li>
+                </ul>
+                </div>
+			</div>
+            
+            
+            <div>
+				<h3 ><a href="#">Goals</a></h3>
+				<div>
+                <ul class="MenuBarVertical">
+                         <li><a href="createGoal.php">Create Goal</a>  </li>
+                         <li><a href="listGoals.php">View Goals</a> </li>
+                         <li><a href="createGoalCategory.php">Create Goal Category</a></li>
+                         <li><a href="goalCategories.php">View Goal Categories</a></li>
+                       </ul>
+                </div>
+			</div>
+            
+            <!--<div>
+				<a href=".php">Logout</a>
+			</div>-->
+            
+    </div>  <!--healthTeamSidebar-->
+  </div>

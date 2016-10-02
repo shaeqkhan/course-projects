@@ -1,0 +1,101 @@
+table {
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	line-height:3em;
+	-webkit-border-radius:7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	padding-top:5px;
+	margin-left:auto;
+	margin-right:auto;
+	float:left;
+}
+thead th {
+	background-image:url(../images/header-bg.jpg);
+	background-repeat:repeat-x;
+	color:#fff;
+	-webkit-border-radius:7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	
+}
+tbody tr th {
+	background-color:#E0E0E0;
+	-webkit-border-radius:7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	
+}
+#updateScores {
+	font-family:Arial, Helvetica, sans-serif;
+	margin-top:20px;
+	margin-right:10px;
+	float:right;
+	font-size:14px;
+	color:#000;
+	text-shadow:1px 1px 1px #999;
+	padding:7px;
+}
+input{
+	size:auto;
+	-webkit-border-radius:7px;-
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+}
+
+#lastWeek {
+	float: left;
+	width: 50px;
+	padding-left:20px;
+	padding-right:10px;
+	padding-bottom:10px;
+
+}
+#nextWeek {
+	float: left;
+	width: 50px;
+	padding-left:10px;
+	padding-bottom:10px;
+
+}
+#message {
+	float: left;
+	width: 590px;
+	padding-bottom:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	line-height:2em;
+	text-align:center;
+}
+
+
+.incremental{
+	background-color:#E0E0E0;
+	color:#349b45;
+	-webkit-border-radius:7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	
+}
+
+.decremental{
+	background-color:#E0E0E0;
+	color:#C00;
+	-webkit-border-radius:7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	
+}
+
+#scoresForm table tbody .incremental th input {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #349b45;
+	text-align: center;
+}
+
+#scoresForm table tbody .decremental th input {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #C00;
+	text-align: center;
+}
