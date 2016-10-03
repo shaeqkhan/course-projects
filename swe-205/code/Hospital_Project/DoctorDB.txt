@@ -1,0 +1,4 @@
+Wala	wala	wala	female	Gynacologist
+Khan	khan	khan	male	Surgeon
+Misbah	misbah	misbah	male	Pediatrician
+Sajjad	msajjad	msajjad	male	Oncologist
